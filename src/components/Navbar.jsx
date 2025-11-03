@@ -27,11 +27,14 @@ function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 relative flex items-center justify-between h-20">
         {/* ✅ Logo (Left) */}
-        <div>
-          <a href="#" className="text-3xl font-bold text-white">A
-            <span className="text-gray-400"> A</span>
-          </a>
+         <div className="flex-shrink-0">
+          <img
+            src="/AA.svg"
+            alt="Logo"
+            className="w-40 h-auto object-contain filter brightness-0 invert"
+          />
         </div>
+
 
         {/* ✅ Center Glass Capsule Navigation */}
         <div className="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 px-7 py-2 rounded-full border border-white/20 bg-white/10 backdrop-blur-2xl shadow-[0_8px_32px_0_rgba(255,255,255,0.1)]">
