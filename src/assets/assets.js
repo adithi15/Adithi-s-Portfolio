@@ -132,8 +132,8 @@ export const projects = [
     image: projectImg4,
     tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
     icons: [FaReact, FaCloud],
-    demo: "#",
-    code: "#",
+    demo: "https://adithis-portfolio.vercel.app/",
+    code: "https://github.com/adithi15/adithis-portfolio",
   },
   // {
   //   title: "Chat App",

@@ -14,7 +14,7 @@ const Hero = () => {
     >
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         {/* Left Section - Text */}
-        <div className="md:w-1/2 mb-10 md:mb-0">
+        <div className="md:w-1/2 mb-10 md:mb-0 pl-14">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
             Hi, I'm <span className="text-gray-300">Adithi Ankam</span>
           </h1>
